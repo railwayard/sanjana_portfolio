@@ -15,9 +15,11 @@ const nextConfig = {
   },
 };
 
-module.exports = withSentryConfig(nextConfig, {
-  org: "nixlab-technologies",
-  project: "portfolio-nextjs",
-  authToken: process.env.SENTRY_AUTH_TOKEN,
-  silent: false,
-});
+// Sentry Webpack plugin options
+const SentryWebpackPluginOptions = {
+  silent: true, // hides Sentry logs during build
+  // do NOT include org/project/authToken if you don't want to upload releases
+};
+
+// Export the config wrapped with Sentry
+module.exports = withSentryConfig(nextConfig, SentryWebpackPluginOptions);
