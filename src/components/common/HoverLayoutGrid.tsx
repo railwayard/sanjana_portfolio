@@ -45,7 +45,7 @@ export const HoverLayoutGrid = ({
               />
             )}
           </AnimatePresence>
-          <AnimatedServiceCard item={item} />
+          <AnimatedServiceCard/>
         </div>
       ))}
     </div>

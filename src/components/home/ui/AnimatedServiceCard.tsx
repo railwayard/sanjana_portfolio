@@ -37,7 +37,7 @@ const IconSkeleton = () => {
             className="h-8 w-8 aspect-square"
           />
         </IconContainer>
-        {/* Add more static icons if needed */}
+       
       </div>
     </div>
   );
