@@ -2,61 +2,45 @@ import { IExperienceItem } from "@/types";
 
 const experiences: IExperienceItem[] = [
   {
-    designation: "Software Development Engineer",
-    company: "StarApps Studio",
-    startDate: "Jul 2024",
-    isCurrentJob: true,
-    location: "Pune, India",
+    designation: "Backend Developer",
+    company: "ATOM",
+    startDate: "August 2024",
     description: [
-      "Currently working on developing innovative software solutions.",
-      "Contributing to large-scale projects with a focus on performance optimization.",
-      "Collaborating closely with cross-functional teams to ensure product quality.",
-      "Adhering to clean code practices and modern development techniques.",
+      "	Contributed to building a Next.js web app for UPSC test series at Atom, implementing Firebase-based authentication and data management",
+	    "Currently involved in developing an online coaching platform for UPSC aspirants, focusing on scalable and user-friendly solutions.",
     ],
   },
   {
-    designation: "Full Stack Developer",
-    company: "Merito",
-    startDate: "Feb 2023",
-    endDate: "Jul 2024",
-    isCurrentJob: false,
-    location: "Pune, India",
+    designation: "Backend Developer and Designer",
+    company: "Freelance",
+    startDate: "October 2023",
+    // isCurrentJob: false,
+    // location: "Pune, India",
     description: [
-      "Developed over 5 web applications with seamless backend API integration.",
-      "Streamlined workflows by eliminating redundant data, boosting efficiency.",
-      "Improved website loading time by 80% through image optimization, minimizing main-thread work, and implementing SEO strategies.",
-      "Resolved 100+ bugs and conducted thorough code reviews.",
-      "Demonstrated expertise in both backend and frontend development.",
+      	"Developed robust and scalable web applications with FastAPI and Node.js backends, and responsive frontends using HTML, CSS, and JavaScript",
+	      "Ensured high code quality, performance optimization, and seamless user experience through clean architecture and responsive design",
     ],
   },
   {
-    designation: "Full Stack Development Intern",
-    company: "TECHOX LLP",
-    startDate: "May 2021",
-    endDate: "Jul 2022",
-    isCurrentJob: false,
-    location: "Remote",
+    designation: "Bachelor of Technology",
+    company: "Rajiv Gandhi Institute of Technology,Kottayam",
+    startDate: "August 2018",
+    endDate: " May 2022",
     description: [
-      "Revamped and enhanced 3+ mobile apps using Flutter.",
-      "Deployed RESTful APIs for seamless app-server integration.",
-      "Integrated Google AdMob to effectively monetize applications.",
-      "Contributed to boosting app functionality and revenue generation.",
+       "Completed Bachelor of Engineering in Electronics and Communication. ",
     ],
   },
-  {
-    designation: "Web Development Intern",
-    company: "Career Corner Education Pvt Ltd",
-    startDate: "Jul 2021",
-    endDate: "Nov 2021",
-    isCurrentJob: false,
-    location: "Remote",
+    {
+    designation: "Higher Secondary Education",
+    company: "Carmel Girls Higher Secondary School,TVM",
+    startDate: "July 2016",
+    endDate: " June 2018",
     description: [
-      "Spearheaded website development and enhancements for company portals.",
-      "Prioritized clean, reusable code with modern tech stacks.",
-      "Efficiently managed multiple tasks with minimal supervision.",
-      "Collaborated with senior team members to meet and exceed project goals.",
+       "Completed Higher Secondary Education in Computer Science",
     ],
   },
+  
+  
 ];
 
 export default experiences;

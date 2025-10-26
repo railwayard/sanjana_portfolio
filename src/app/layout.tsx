@@ -25,9 +25,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Nikhil Rajput",
+  title: "Sanjana M S",
   description:
-    "Nikhil Rajput is a proficient Software Engineer and Full Stack Developer from India, skilled in front-end and back-end development using modern tech stacks.",
+    "Sanjana is a Software Deveoper skilled in back-end development using modern tech stacks.",
   robots: {
     index: true,
     follow: true,
@@ -41,42 +41,41 @@ export const metadata: Metadata = {
   },
   icons: [
     {
-      url: "/favicon-16x16.ico",
+      url: "/favicon2.ico",
       rel: "icon",
       sizes: "16x16",
       type: "image/x-icon",
     },
     {
-      url: "/favicon-32x32.ico",
+      url: "/favicon2.ico",
       rel: "icon",
       sizes: "32x32",
       type: "image/x-icon",
     },
     {
-      url: "/favicon-48x48.ico",
+      url: "/favicon2.ico",
       rel: "icon",
       sizes: "48x48",
       type: "image/x-icon",
     },
     {
-      url: "/favicon-64x64.ico",
+      url: "/favicon2.ico",
       rel: "icon",
       sizes: "64x64",
       type: "image/x-icon",
     },
   ],
+
   keywords: [
-    "nikhil rajput",
-    "nikhil",
-    "nixrajput",
-    "nikhil-rajput",
-    "rajput nikhil",
-    "founder of nixlab",
-    "nixlab founder",
-    "full stack developer",
-    "indian developer",
-    "nixrajput github",
-  ],
+  "Sanjana M S",
+  "Software Developer",
+  "Full Stack Developer",
+  "Next.js Developer",
+  "Frontend Developer",
+  "Portfolio",
+  "Web Developer",
+],
+  
 };
 
 const GoogleAnalytics = dynamic(

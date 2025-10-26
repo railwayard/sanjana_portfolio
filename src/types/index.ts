@@ -20,8 +20,8 @@ export interface IExperienceItem {
   company: string;
   startDate: string;
   endDate?: string;
-  isCurrentJob: boolean;
-  location: string;
+  // isCurrentJob: boolean;
+  // location: string;
   shortDescription?: string;
   description: string[];
 }
@@ -50,15 +50,6 @@ export interface IProjectItem {
   screenshots?: string[];
   about?: string;
 }
-
-export type IServiceItem = {
-  id: number | string;
-  title: string;
-  icon?: IconDefinition;
-  shortDescription: string;
-  description: string;
-  icons: string[];
-};
 
 export interface ISkillListItem {
   title: string;

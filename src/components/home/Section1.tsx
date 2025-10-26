@@ -6,8 +6,9 @@ import ResponsiveBox from "@/components/core/ResponsiveBox";
 import Row from "@/components/core/Row";
 import { FlipWords } from "@/components/common/FlipWords";
 import socialLinks from "@/data/socialLinks";
+import Image from "next/image"; 
 import TalkButton from "./ui/TalkButton";
-
+import ResumeButton from "./ui/ResumeButton";
 const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
   return (
     <ResponsiveBox
@@ -16,27 +17,49 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
     >
       <ConstrainedBox classNames="px-4 py-8 pt-16 z-20 items-center justify-center">
         <Column classNames="w-full items-center justify-center">
-          <div className="inline-flex items-center">
-            <p className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--textColor)] text-[var(--textColor)] font-bold text-center">
+          <div className="inline-flex flex-col items-center text-center gap-2">
+
+          <div className="flex justify-center py-6">
+            <Image
+            src="/images/sanjana_3.png"
+            alt="Profile Image"
+            width={200}
+            height={200}
+            className="rounded-full border-4 border-primary"
+              />
+
+        </div>
+
+          
+            <p className="text-2xl/normal sm:text-1xl/normal md:text-2xl/normal lg:text-3xl/normal xl:text-4xl/normal dark:text-[var(--textColor)] text-[var(--textColor)] font-bold text-center">
               Hi there, I am
             </p>
-            <FlipWords
-              words={["Nikhil Rajput.", "@nixrajput."]}
-              className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
-            />
+            
+          <FlipWords
+            words={["SANJANA", "SANJANA"]}
+            className="font-heading font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl dark:text-[var(--primaryColor)] text-[var(--primaryColor)] mb-3"
+          />
+          <div className="inline-flex items-center">
+         
+          <FlipWords
+            words={["Backend Developer 💻", "Designer 🎨"]}
+            className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]"
+          />
           </div>
-          <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
-            Full Stack Developer 💻 SDE 🛠️ Open Source 🌍
+          </div>
+
+          <p className="text-xs italic  font-thin mt-4 lg:mt-6 dark:text-[var(--textColorLight)] text-[var(--textColorLight)] text-center max-w-xl">
+          “Crafting clean code and seamless designs to bring ideas to life with precision and creativity.”
           </p>
 
           <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">
-            <TalkButton />
+
+          <TalkButton />
+          <ResumeButton/>
           </div>
         </Column>
 
         <div className="mt-12 lg:mt-16 w-full flex flex-col items-center">
-          <p className="text-base/6 font-medium">Follow me here</p>
-
           <Row classNames="mt-2 gap-2">
             {socialLinks.slice(0, 5).map((link, index) => {
               return (

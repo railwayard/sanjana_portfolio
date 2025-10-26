@@ -69,42 +69,82 @@
   --linkColor100: rgba(0, 113, 255, 1);
   --linkColor: rgba(0, 113, 255, 1);
 
-  --primaryColor5: rgba(0, 177, 113, 0.05);
-  --primaryColor10: rgba(0, 177, 113, 0.1);
-  --primaryColor20: rgba(0, 177, 113, 0.2);
-  --primaryColor30: rgba(0, 177, 113, 0.3);
-  --primaryColor40: rgba(0, 177, 113, 0.4);
-  --primaryColor50: rgba(0, 177, 113, 0.5);
-  --primaryColor60: rgba(0, 177, 113, 0.6);
-  --primaryColor70: rgba(0, 177, 113, 0.7);
-  --primaryColor80: rgba(0, 177, 113, 0.8);
-  --primaryColor90: rgba(0, 177, 113, 0.9);
-  --primaryColor100: rgba(0, 177, 113, 1);
-  --primaryColor: rgba(0, 177, 113, 1);
+  // --primaryColor5: rgba(0, 177, 113, 0.05);
+  // --primaryColor10: rgba(0, 177, 113, 0.1);
+  // --primaryColor20: rgba(0, 177, 113, 0.2);
+  // --primaryColor30: rgba(0, 177, 113, 0.3);
+  // --primaryColor40: rgba(0, 177, 113, 0.4);
+  // --primaryColor50: rgba(0, 177, 113, 0.5);
+  // --primaryColor60: rgba(0, 177, 113, 0.6);
+  // --primaryColor70: rgba(0, 177, 113, 0.7);
+  // --primaryColor80: rgba(0, 177, 113, 0.8);
+  // --primaryColor90: rgba(0, 177, 113, 0.9);
+  // --primaryColor100: rgba(0, 177, 113, 1);
+  // --primaryColor: rgba(0, 177, 113, 1);
 
-  --secondaryColor10: rgba(0, 237, 138, 0.1);
-  --secondaryColor20: rgba(0, 237, 138, 0.2);
-  --secondaryColor30: rgba(0, 237, 138, 0.3);
-  --secondaryColor40: rgba(0, 237, 138, 0.4);
-  --secondaryColor50: rgba(0, 237, 138, 0.5);
-  --secondaryColor60: rgba(0, 237, 138, 0.6);
-  --secondaryColor70: rgba(0, 237, 138, 0.7);
-  --secondaryColor80: rgba(0, 237, 138, 0.8);
-  --secondaryColor90: rgba(0, 237, 138, 0.9);
-  --secondaryColor100: rgba(0, 237, 138, 1);
-  --secondaryColor: rgba(0, 237, 138, 1);
+  // --secondaryColor10: rgba(0, 237, 138, 0.1);
+  // --secondaryColor20: rgba(0, 237, 138, 0.2);
+  // --secondaryColor30: rgba(0, 237, 138, 0.3);
+  // --secondaryColor40: rgba(0, 237, 138, 0.4);
+  // --secondaryColor50: rgba(0, 237, 138, 0.5);
+  // --secondaryColor60: rgba(0, 237, 138, 0.6);
+  // --secondaryColor70: rgba(0, 237, 138, 0.7);
+  // --secondaryColor80: rgba(0, 237, 138, 0.8);
+  // --secondaryColor90: rgba(0, 237, 138, 0.9);
+  // --secondaryColor100: rgba(0, 237, 138, 1);
+  // --secondaryColor: rgba(0, 237, 138, 1);
 
-  --successColor10: rgba(30, 180, 80, 0.1);
-  --successColor20: rgba(30, 180, 80, 0.2);
-  --successColor30: rgba(30, 180, 80, 0.3);
-  --successColor40: rgba(30, 180, 80, 0.4);
-  --successColor50: rgba(30, 180, 80, 0.5);
-  --successColor60: rgba(30, 180, 80, 0.6);
-  --successColor70: rgba(30, 180, 80, 0.7);
-  --successColor80: rgba(30, 180, 80, 0.8);
-  --successColor90: rgba(30, 180, 80, 0.9);
-  --successColor100: rgba(30, 180, 80, 1);
-  --successColor: rgba(30, 180, 80, 1);
+  // --successColor10: rgba(30, 180, 80, 0.1);
+  // --successColor20: rgba(30, 180, 80, 0.2);
+  // --successColor30: rgba(30, 180, 80, 0.3);
+  // --successColor40: rgba(30, 180, 80, 0.4);
+  // --successColor50: rgba(30, 180, 80, 0.5);
+  // --successColor60: rgba(30, 180, 80, 0.6);
+  // --successColor70: rgba(30, 180, 80, 0.7);
+  // --successColor80: rgba(30, 180, 80, 0.8);
+  // --successColor90: rgba(30, 180, 80, 0.9);
+  // --successColor100: rgba(30, 180, 80, 1);
+  // --successColor: rgba(30, 180, 80, 1);
+
+  /* Primary Blue Shades */
+--primaryColor5: rgba(0, 123, 255, 0.05);
+--primaryColor10: rgba(0, 123, 255, 0.1);
+--primaryColor20: rgba(0, 123, 255, 0.2);
+--primaryColor30: rgba(0, 123, 255, 0.3);
+--primaryColor40: rgba(0, 123, 255, 0.4);
+--primaryColor50: rgba(0, 123, 255, 0.5);
+--primaryColor60: rgba(0, 123, 255, 0.6);
+--primaryColor70: rgba(0, 123, 255, 0.7);
+--primaryColor80: rgba(0, 123, 255, 0.8);
+--primaryColor90: rgba(0, 123, 255, 0.9);
+--primaryColor100: rgba(0, 123, 255, 1);
+--primaryColor: rgba(0, 123, 255, 1);
+
+/* Secondary Blue Shades (lighter blue) */
+--secondaryColor10: rgba(100, 180, 255, 0.1);
+--secondaryColor20: rgba(100, 180, 255, 0.2);
+--secondaryColor30: rgba(100, 180, 255, 0.3);
+--secondaryColor40: rgba(100, 180, 255, 0.4);
+--secondaryColor50: rgba(100, 180, 255, 0.5);
+--secondaryColor60: rgba(100, 180, 255, 0.6);
+--secondaryColor70: rgba(100, 180, 255, 0.7);
+--secondaryColor80: rgba(100, 180, 255, 0.8);
+--secondaryColor90: rgba(100, 180, 255, 0.9);
+--secondaryColor100: rgba(100, 180, 255, 1);
+--secondaryColor: rgba(100, 180, 255, 1);
+
+/* Success Blue Shades (darker blue variant) */
+--successColor10: rgba(0, 90, 200, 0.1);
+--successColor20: rgba(0, 90, 200, 0.2);
+--successColor30: rgba(0, 90, 200, 0.3);
+--successColor40: rgba(0, 90, 200, 0.4);
+--successColor50: rgba(0, 90, 200, 0.5);
+--successColor60: rgba(0, 90, 200, 0.6);
+--successColor70: rgba(0, 90, 200, 0.7);
+--successColor80: rgba(0, 90, 200, 0.8);
+--successColor90: rgba(0, 90, 200, 0.9);
+--successColor100: rgba(0, 90, 200, 1);
+--successColor: rgba(0, 90, 200, 1);
 
   --errorColor10: rgba(244, 67, 54, 0.1);
   --errorColor20: rgba(244, 67, 54, 0.2);
