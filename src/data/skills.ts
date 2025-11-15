@@ -6,18 +6,23 @@ const skills: ISkillListItem[] = [
     items: [
       {
         title: "JavaScript",
-        level: SkillLevel.Beginner,
+        level: SkillLevel.Intermediate,
         icon: "/skills/javascript.svg",
       },
+      // {
+      //   title: "TypeScript",
+      //   level: SkillLevel.Intermediate,
+      //   icon: "/skills/typescript.svg",
+      // },
       {
-        title: "TypeScript",
-        level: SkillLevel.Beginner,
-        icon: "/skills/typescript.svg",
+        title: "Node.js",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/nodejs.svg",
       },
       {
         title: "Python",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/pythonxl.svg",
+        level: SkillLevel.Expert,
+        icon: "/skills/python.png",
       },
     ],
   },
@@ -26,13 +31,18 @@ const skills: ISkillListItem[] = [
     items: [
       {
         title: "Next.js",
-        level: SkillLevel.Expert,
+        level: SkillLevel.Intermediate,
         icon: "/skills/nextjs.png",
       },
+      // {
+      //   title: "React.js",
+      //   level: SkillLevel.Intermediate,
+      //   icon: "/skills/react.svg",
+      // },
       {
-        title: "React.js",
-        level: SkillLevel.Expert,
-        icon: "/skills/react.svg",
+        title: "Tailwind CSS",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/tailwindcss.png",
       },
       {
         title: "HTML",
@@ -50,13 +60,13 @@ const skills: ISkillListItem[] = [
     title: "Backend Development",
     items: [
       {
-        title: "Node.js",
-        level: SkillLevel.Expert,
-        icon: "/skills/nodejs.svg",
+        title: "FastAPI",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/FastAPI.svg",
       },
       {
         title: "Express.js",
-        level: SkillLevel.Expert,
+        level: SkillLevel.Intermediate,
         icon: "/skills/express.svg",
       },
       {
@@ -65,9 +75,9 @@ const skills: ISkillListItem[] = [
         icon: "/skills/socket-io.png",
       },
       {
-        title: "Firebase",
+        title: "Auth0",
         level: SkillLevel.Intermediate,
-        icon: "/skills/firebase.svg",
+        icon: "/skills/auth0-icon.png",
       },
     ],
   },
@@ -75,14 +85,14 @@ const skills: ISkillListItem[] = [
     title: "Database Management",
     items: [
       {
-        title: "MongoDB",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/mongodb.svg",
-      },
-      {
         title: "PostgreSQL",
         level: SkillLevel.Intermediate,
         icon: "/skills/postgresql.svg",
+      },
+      {
+        title: "MongoDB",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/mongodb.svg",
       },
       {
         title: "MySQL",
@@ -92,7 +102,7 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "DevOps/VCS",
+    title: "DevOps & Cloud",
     items: [
       {
         title: "Docker",
@@ -101,9 +111,19 @@ const skills: ISkillListItem[] = [
       },
       {
         title: "AWS",
-        level: SkillLevel.Intermediate,
+        level: SkillLevel.Beginner,
         icon: "/skills/aws.svg",
       },
+      {
+        title: "Celery",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/celery_logo.png",
+      },
+    ],
+  },
+  {
+    title: "Version Control & Tools",
+    items: [
       {
         title: "Git",
         level: SkillLevel.Expert,
@@ -114,15 +134,40 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/github.svg",
       },
+      {
+        title: "Postman",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/postman-icon.svg",
+      },
     ],
   },
   {
-    title: "Nontechnical Skills",
+    title: "Design & Prototyping",
+    items: [
+      {
+        title: "Figma",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/figma-icon.png",
+      },
+      {
+        title: "Canva",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/canva-icon.svg",
+      },
+      {
+        title: "Framer",
+        level: SkillLevel.Beginner,
+        icon: "/skills/framer.png",
+      },
+    ],
+  },
+  {
+    title: "Soft Skills",
     items: [
       {
         title: "Problem Solving",
         level: SkillLevel.Expert,
-        icon: "/images/logical-thinking.png",
+        icon: "/images/problem-solving.png",
       },
       {
         title: "Collaboration",
@@ -130,9 +175,9 @@ const skills: ISkillListItem[] = [
         icon: "/images/collaboration.png",
       },
       {
-        title: "Analytical Skills",
+        title: "Analytical Thinking",
         level: SkillLevel.Expert,
-        icon: "/images/analytical-skills.png",
+        icon: "/images/critical-thinking.png",
       },
     ],
   },

@@ -2,7 +2,7 @@ import { IProjectItem, ProjectType, RepoType } from "@/types";
 
 const projects: IProjectItem[] = [
   {
-    id: "social-media-api-nodejs",
+    id: "atom-webapp",
     title: "ATOM",
     description:
       "Atomias is a Next.js UPSC test app using Firebase for secure authentication and data management.",
@@ -20,7 +20,18 @@ const projects: IProjectItem[] = [
     icon: "/skills/flutterflow.jpeg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    tags: ["Flutterflow"],
+    tags: ["Flutterflow","Javascript"],
+  },
+  {
+    id: "log-entry-app-nodejs",
+    title: "Log Entry App",
+    description:
+      "A secure digital log entry app for gated communities to record, monitor, and manage visitor and resident access efficiently",
+    icon: "/skills/nodejs.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/railwayard/log_entry-_app",
+    tags: ["Node.js","MongoDB","Express.js"],
   },
   {
     id: "review-app-api-python",
@@ -33,17 +44,7 @@ const projects: IProjectItem[] = [
     // url: "",
     tags: ["Fastapi","Next.js","Postgresql","Docker"],
   },
-    {
-    id: "portfolio-website",
-    title: "Portfolio Website",
-    description:
-      "This repository contains the source code for a portfolio website built using Next.js and Sass.",
-    icon: "/skills/nextjs.png",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/portfolio-website",
-    tags: ["Next.js"],
-  },
+
 
 ];
 export default projects;

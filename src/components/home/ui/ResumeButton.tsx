@@ -3,7 +3,7 @@ import Link from "next/link";
 const ResumeButton = () => {
   return (
     <Link
-      href="/sanjanaresume.pdf" 
+      href="SANJANA M S.pdf" 
       target="_blank"    
       className="app__outlined_btn min-w-[10rem]"
     >
